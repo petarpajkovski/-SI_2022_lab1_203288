@@ -2,4 +2,4 @@ Beer x 6
 Egg x 10
 Chicken x 1
 Apple x 5
-Butter x 2
+Butter x 3
