@@ -1,0 +1,43 @@
+-После креирање на фајловите тие се наоѓаат во фаза untracked
+
+1. git add shopping_list.txt - гo поставуваме shopping_list.txt фајлот на stage
+2. git commit -m "Add 5 items to the shopping list" - со командата git commit правиме верзија со порака (Add 5 items to the shopping list)
+
+-После додавање на количина на производите, фајлот shopping_list се наоѓа во фаза modified
+
+3. git add shopping_list.txt - го поставуваме фајлот на stage
+4. git commit -m "Add quantities to the items." - правиме нова верзија со порака (Add quantities to the items.)
+
+5. git branch branch1 - креираме branch со име branch1
+6. git branch branch2 - креираме branch со име branch2
+
+7. git push origin master - ја синхронизираме master гранката со RR
+8. git push origin branch1 - ја поставуваме гранката на RR (исто и за branch2)
+
+9. git checkout branch1 - се префрламе на гранката branch1
+
+10. git add shopping_list.txt - го поставуваме фајлот на stage
+11. git commit -m "Change quantity of item #5" - правиме нова верзија со порака (Change quantity of item #5)
+
+12. git add shopping_list.txt - го поставуваме фајлот на stage
+13. git commit -m "Change quantity of item #2" - правиме нова верзија со порака (Change quantity of item #2)
+
+14. git push origin branch1 - ја синхронизираме branch1 со RR
+
+15. git checkout branch2 - се префрламе на branch2
+
+12. git add shopping_list.txt - го поставуваме фајлот на stage
+13. git commit -m "Modify item #4" - правиме нова верзија со порака (Modify item #4)
+
+14. git add shopping_list.txt - го поставуваме фајлот на stage
+15. git commit --amend -m "Modify item #4 and add item #6" - во истата верзија правиме промена и ставаме нова порака (Modify item #4 and add item #6)
+
+16. git checkout master - се префрламе на гранката master
+
+17. git merge branch1 - се спојува гранката branch1 кон master (не се појавува конфликт, се користи Fast-forward)
+
+18. git merge branch2 - се појавува конфликт (конфликтот го решаваме на начин што ги наметнуваме промените од branch2)
+
+19. git commit -a -m "Merge branch 'branch2'" - правиме верзија со порака (Merge branch 'branch2')
+
+
