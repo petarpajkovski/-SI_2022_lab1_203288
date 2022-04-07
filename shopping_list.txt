@@ -1,5 +1,6 @@
 Beer x 6
-Egg x 10
+Egg x 15
 Chicken x 1
-Apple x 5
-Butter x 2
+Orange x 5
+Butter x 3
+Juice x 1
